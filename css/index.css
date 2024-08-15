@@ -42,3 +42,7 @@
     background: black;
     overflow: hidden;
 }
+.mx-auto{
+    max-width: 1440px;
+    margin: 0 auto;
+}
