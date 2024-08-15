@@ -4,25 +4,34 @@
 }
 
 .box {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 16px;
     background: blueviolet;
 }
 
 .box2 {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 16px;
     background: skyblue;
 }
 
 .circle {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 16px;
     background-color: rgb(236, 138, 11);
     border-radius: 100%;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: white;
+}
+.padding{
+    padding: 20px;
 }
 
 .d-flex {
@@ -31,4 +40,5 @@
 }
 .bg{
     background: black;
+    overflow: hidden;
 }
