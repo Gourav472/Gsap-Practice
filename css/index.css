@@ -24,13 +24,15 @@
     background-color: rgb(236, 138, 11);
     border-radius: 100%;
 }
-.ball{
+
+.ball {
     width: 50px;
     height: 50px;
     border-radius: 100%;
     background-color: white;
 }
-.padding{
+
+.padding {
     padding: 20px;
 }
 
@@ -38,11 +40,34 @@
     display: flex;
     justify-content: space-between;
 }
-.bg{
+
+.bg {
     background: black;
     overflow: hidden;
 }
-.mx-auto{
+
+.mx-auto {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* scroll-trigger */
+.scroll {
+ max-width: 150px;
+}
+.scroll2{
+    max-width: 150px;
+}
+.scroll3{
+    max-width: 100px;
+    height: 100px;
+    opacity:0 ;
+    transform: translateY(-100px);
+}
+
+.min_vh_100{
+    min-height: 100vh;
+}
+.bg_black{
+    background: #000;
 }
